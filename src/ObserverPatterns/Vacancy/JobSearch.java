@@ -1,7 +1,7 @@
 package ObserverPatterns.Vacancy;
 
 public class JobSearch {
-    public void main(String[] args){
+    public static void main(String[] args){
         JavaDeveloperJobSite jobSite = new JavaDeveloperJobSite();
 
         jobSite.addVacancy("First Java Position");
@@ -15,5 +15,6 @@ public class JobSearch {
         jobSite.removeVacancy("First Java Position");
         jobSite.addVacancy("Java middle developer");
         jobSite.removeObserver(firstSubscriber);
+        jobSite.addVacancy("Second Java Position");
     }
 }

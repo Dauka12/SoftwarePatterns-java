@@ -1,6 +1,5 @@
 package ObserverPatterns.YouTube;
 
-import ObserverPatterns.YouTube.Observer;
 
 public interface Observed {
     void addObserver(Observer observer);
